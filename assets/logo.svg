@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="torii-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF4B4B"/>
+      <stop offset="100%" stop-color="#D90429"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0, 10)">
+    <path d="M 0 50 Q 150 30 300 50 L 300 80 Q 150 60 0 80 Z" fill="url(#torii-gradient)"/>
+    <rect x="30" y="100" width="240" height="25" rx="4" fill="url(#torii-gradient)"/>
+    <rect x="130" y="70" width="40" height="55" rx="4" fill="url(#torii-gradient)"/>
+    <rect x="60" y="65" width="30" height="210" rx="4" fill="url(#torii-gradient)"/>
+    <rect x="210" y="65" width="30" height="210" rx="4" fill="url(#torii-gradient)"/>
+    
+    <path d="M 125 150 L 195 190 L 125 230 Z" fill="#FFFFFF"/>
+  </g>
+</svg>
