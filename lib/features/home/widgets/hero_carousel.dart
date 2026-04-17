@@ -58,8 +58,7 @@ class _HeroCarouselState extends State<HeroCarousel> {
 
   @override
   Widget build(BuildContext context) {
-    final screenWidth = MediaQuery.of(context).size.width;
-    final heroHeight = screenWidth * 9 / 16 + 120;
+    final heroHeight = MediaQuery.of(context).size.height * 0.65;
 
     return SizedBox(
       height: heroHeight,
@@ -154,22 +153,6 @@ class _HeroCarouselState extends State<HeroCarousel> {
                             ],
                           ),
                         ),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    TapScale(
-                      onTap: () {},
-                      child: Container(
-                        padding: const EdgeInsets.all(14),
-                        decoration: BoxDecoration(
-                          color: AppColors.surfaceWithOpacity60,
-                          borderRadius: BorderRadius.circular(12),
-                          border: Border.all(
-                            color: AppColors.border,
-                          ),
-                        ),
-                        child: const Icon(Icons.add_rounded,
-                            color: AppColors.textPrimary, size: 22),
                       ),
                     ),
                   ],

@@ -34,7 +34,7 @@ class TrendingRankCard extends StatelessWidget {
                 children: [
                   // Stroke layer (outlined text)
                   Text(
-                    rank.toString().padLeft(2, '0'),
+                    rank.toString(),
                     style: GoogleFonts.spaceGrotesk(
                       fontSize: 90,
                       fontWeight: FontWeight.w900,
